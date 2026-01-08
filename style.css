@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +7,7 @@
 }
 
 html {
-	background: radial-gradient(circle at center, #764ba2 0%, #667eea 100%);
+	/* background: radial-gradient(circle at center, #764ba2 0%, #667eea 100%); */
 	min-height: 100vh;
 }
 
@@ -14,7 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 .wrapper {
@@ -25,13 +27,9 @@ body {
 
 .container {
 	padding: 2.5rem 3rem;
-	background: rgba(255, 255, 255, 0.95);
-	border-radius: 20px;
-	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-	color: #333;
 	font-size: 2.5rem;
 	font-weight: 700;
 	margin-bottom: 0.25rem;
@@ -39,9 +37,7 @@ h1 {
 }
 
 .tagline {
-	color: #666;
 	font-size: 1.1rem;
-	/* font-style: italic; */
 }
 
 .social-links {
@@ -56,21 +52,10 @@ h1 {
 	align-items: center;
 	width: 50px;
 	height: 50px;
-	border-radius: 50%;
-	background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-	color: white;
 	font-size: 1.5rem;
 	text-decoration: none;
-	box-shadow: 0 4px 15px rgba(26, 32, 44, 0.5);
-	transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.social-icon:hover {
-	box-shadow: 0 8px 30px rgba(26, 32, 44, 0.7);
-	transform: translateY(-3px);
 }
 
 a {
-	color: rebeccapurple;
 	text-decoration: none;
 }
